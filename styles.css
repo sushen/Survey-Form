@@ -1,0 +1,45 @@
+body{
+    background-image: url('https://images.unsplash.com/photo-1507652955-f3dcef5a3be5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHByZSUyMGNvdXJzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60');
+    padding:10px;
+    }
+    #title {
+      color:white;
+      font-size:30;
+      text-align:center;
+    }
+    #description {
+      color:white;
+      font-size:13;
+      text-align:center;
+    }
+    #survey-form{
+      background-color:rgb(40, 55, 71);
+      width:90%;
+      height: 85%;
+      margin:auto;
+    }
+    #name-label, #email-label, #number-label, #Checks { 
+    color:white;
+    margin-left: 10px;
+    font-size: 15px;
+    }
+    #number,#email,#name{
+    margin:10px 10px;
+    width:80%;
+    }
+    #dropdown{margin-left:10px;
+    }
+    .edit{
+    color:RGB(240, 178, 122);
+    margin:10px;
+    font-size:15;
+    margin-top:10px;
+    }
+    input[type="submit"]{
+      display:block;
+      width:50%;
+      margin:1em auto;
+      padding:8px;
+      font-size:20px;
+      
+    }
